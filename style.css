@@ -1,0 +1,171 @@
+* {
+	margin: 0;
+}
+body {
+	font-family: Arial, Sans-serif;
+	font-size: 14px;
+	text-align: center;
+	background: #fff;
+}
+
+html, body {
+	height: 100%;
+}
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -50px;
+}
+
+.header {
+	text-align: right;
+	margin-right: 30px;
+
+}
+
+.center {
+	position: relative;
+}
+
+.footer, .push {
+	height: 50px;
+
+}
+
+.footer {
+	background: #F0F0F0 bottom no-repeat fixed;
+	position: absolute;
+	bottom: 0;
+	clear: both;
+	width: 100%;
+}
+
+
+li {
+	display: inline-block;
+	zoom:1;
+	padding: 9px 12px 0 0;
+
+}
+
+a {
+	text-decoration: none;
+	color: #404040;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.voice {
+	width: 30px;
+	height: 30px;
+}
+
+.apps {
+	width: 30px;
+	height: 30px;
+	padding: 0 0 0 0;
+}
+
+.sign_in {
+	background-color: blue;
+	text-decoration: none;
+	border: 1px solid #4285f4;
+	border-radius: 2px;
+	font-weight: bold;
+	outline: none;
+	background: -webkit-linear-gradient(top, #4387fd,#4683ea);
+	padding: 0 12px;
+	line-height: 28px;
+	color: white;
+}
+/* Customize header */
+.apps {
+	vertical-align: middle;
+}
+
+/* Customize center */
+.search, .lucky {
+	background-color: #F0F0F0;
+	padding: 5px 8px 5px 8px;
+	font: bold 11px;
+	border: 1px solid #D0D0D0;
+}
+
+
+.logo, .textBox, .search, .lucky {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 10px;
+}
+
+.logo {
+	padding: 0 0 20px;
+	margin-top: 190px;
+}
+
+.textBox, .mic {
+	display: inline-block;
+	
+
+}
+
+.textBox {
+	width: 550px ;
+	height: 25px;
+	border: 1px solid #C8C8C8;
+	background-image: url("C:\Users\Brent\Documents\The_Odin_Project\google-homepage\mic.png");
+	background-repeat: no-repeat;
+	margin-bottom: 15px;
+}
+
+
+.textBox a {
+	float: right;
+}
+
+.mic {
+	width: 28px;
+	height: 28px;
+	
+
+
+
+}
+
+.search, .lucky {
+	display: inline-block;
+
+}
+
+
+
+/* Customize footer */
+#footer a {
+	color: #707070;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	text-decoration: underline;
+}
+
+#l_footer, #r_footer {
+	display: inline-block;
+
+}
+
+#l_footer {
+	float: left;
+	width: 250px;
+}
+
+#r_footer {
+	
+	float: right;
+	width: 250px;
+}
